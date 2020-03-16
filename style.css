@@ -1,0 +1,133 @@
+body {
+  background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEX4+Pj09PQf/c7fAAAAGklEQVR4Xq3MIQEAAADDIPqX/kvMIMEWEm8O7b0/wewc/NcAAAAASUVORK5CYII=) repeat;
+}
+.block {
+  height: 5em;
+  line-height: 5em;
+  width: 10em;
+  background: #464646;
+  color: #fdfdfd;
+  text-align: center;
+  margin: 1em auto;
+  text-shadow: 0 0 1px #333; /* so one can see fadeBgColor properly */
+}
+.animatable {
+  /* initially hide animatable objects */
+  visibility: hidden;
+  /* initially pause animatable objects their animations */  
+  animation-play-state: paused; 
+}
+/* show objects being animated */
+.animated {
+  visibility: visible;
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-play-state: running;
+}
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes bounceInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-2000px);
+	}
+
+	60% {
+		transform: translateX(20px);
+	}
+
+	80% {
+		transform: translateX(-5px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes bounceInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(2000px);
+	}
+
+	60% {
+		transform: translateX(-20px);
+	}
+
+	80% {
+		transform: translateX(5px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes bounceIn {
+	0% {
+		opacity: 0;
+		transform: scale(.3);
+	}
+
+	50% {
+		transform: scale(1.05);
+	}
+
+	70% {
+		transform: scale(.9);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+.animated.bounceIn {
+	-webkit-animation-name: bounceIn; }
+.animated.bounceInRight {
+	-webkit-animation-name: bounceInRight; }
+.animated.bounceInLeft {
+	-webkit-animation-name: bounceInLeft; }
+.animated.fadeIn {
+	-webkit-animation-name: fadeIn; }
+.animated.fadeInDown {
+	-webkit-animation-name: fadeInDown; }
+.animated.fadeInUp {
+	-webkit-animation-name: fadeInUp; }
