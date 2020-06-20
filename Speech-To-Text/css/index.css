@@ -1,0 +1,30 @@
+
+			*{
+				outline: none;
+			}
+
+			body {
+			    font-family: arial;
+			    background-color: #00cec9;
+			    text-align: center;
+			}
+			button {
+			    padding:10px;
+			    background-color:#0984e3;
+			    color: #FFFFFF;
+			    border: none;
+			    cursor:pointer;
+			    border-radius: 5px;
+			}
+			img{
+				height: 25px;
+			}
+			#output {
+			    padding:10px;
+			    width: 100%;
+			    margin-top:20px;
+			    line-height:30px;
+			}
+			.hide {
+			    display:none;
+			}
