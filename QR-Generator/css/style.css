@@ -1,22 +1,36 @@
-h2{
+*{
+	text-align: center;
+	background-color: #4b4b4b;
+}
+div{
+	padding:20px;
+}
+h1{
 	text-align: center;
 }
-
-body {
-    padding:20px;
+h2{
+	color: #25CCF7;
 }
 input {
     padding:5px;
     background-color:transparent;
     border:none;
-    border-bottom:solid 4px #8c52ff;
-    width:250px;
+    outline: none;
+    border-radius: 12px;
+    border-bottom:solid 4px black;
+    width:450px;
     font-size:16px;
 }
 
-.qr-btn {
-    background-color:#8c52ff;
-    padding:8px;
+.btn {
+    background-color:#17c0eb;
+    border: none;
+    width: 300px;
+    border-radius: 10px;
+    outline: none;
+    padding:12px;
     color:white;
+    font-weight: bold;
     cursor:pointer;
+    font-size: 20px;
 }
