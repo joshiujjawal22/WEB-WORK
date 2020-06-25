@@ -12,8 +12,8 @@ var qr;
 // To generate custom QR COde
 function generateQRCode() {
     var qrtext = document.getElementById("qr-text").value;
-    document.getElementById("result").innerHTML = "This is QR code for " + qrtext +":";
-    alert(qrtext);
+    document.getElementById("result").innerHTML = "This is QR code for " + qrtext;
+    // alert("Scan to get the message");
     // To change the value of QR
     qr.set({
         size: 300,
