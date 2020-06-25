@@ -2,20 +2,21 @@
 <html>
 	<head>
 		<title>QR-Code generator using javascript</title>
+		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<h2>QR Code Generator</h2>
-        <div><input id="qr-text" type="text" placeholder="Write to get the QR"/></div>
-        <br/>
-        <div>
-            <button class="qr-btn" onclick="generateQRCode()">Create QR Code</button>
-        </div>
-        <br/>
-        <p id="qr-result">This is deault QR code:</p>
+		<h1>QR Code Generator</h1>
+		<div>
+        <input id="qr-text" type="text" placeholder="Write to get the QR"/>
+        <br><br>
+		<button class="btn" onclick="generateQRCode()">Create QR Code</button>
+        <h2 id="result">Below is default QR of my GITHUB profile.To change the QR write the text in above block.</h2>
         <canvas id="qr-code"></canvas>
-        
+    </div>
+        <!-- Library for QR code -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+        <!-- Script -->
 		<script src="./js/script.js">
 			
 		</script> 
