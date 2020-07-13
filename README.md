@@ -13,21 +13,21 @@
 ***Javascript***
 
 ### List:
-- <a href="Circular_Progress_bar">Circular Progress Bar</a>
-- <a href="Error Count">Error Count
-- <a href="IMAGE GALLERY">Image Gallery
-- <a href="">JQuery Effects
-- <a href="">Landing Page
-- <a href="">Local Storage
-- <a href="">Navbar
-- <a href="">Parallax
-- <a href="">Pre-Loader
-- <a href="">QR-Generator
-- <a href="">Speech-To-Text
-- <a href="">Stepper
-- <a href="">Text-to-Speech
-- <a href="">Hover effect (SVG)
-- <a href="">Navbar Highlight(Trick)
-- <a href="">Navbar Highlight(Cursor)
+- <a href="Circular Progress Bar">Circular Progress Bar</a>
+- <a href="Error Count">Error Count</a>
+- <a href="IMAGE GALLERY">Image Gallery</a>
+- <a href="Jquery Effects">JQuery Effects</a>
+- <a href="Landing Page">Landing Page</a>
+- <a href="Local Storage">Local Storage</a>
+- <a href="Navbar">Navbar</a>
+- <a href="Parallax">Parallax</a>
+- <a href="Pre-Loader">Pre-Loader</a>
+- <a href="QR-Generator">QR-Generator</a>
+- <a href="Speech-To-Text">Speech-To-Text</a>
+- <a href="Stepper">Stepper</a>
+- <a href="Text-to-Speech">Text-to-Speech</a>
+- <a href="Hover effect (SVG)">Hover effect (SVG)</a>
+- <a href="Navbar Highlight(Trick)">Navbar Highlight(Trick)</a>
+- <a href="Navbar Highlight(Cursor)">Navbar Highlight(Cursor)</a>
 
 
