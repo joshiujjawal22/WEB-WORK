@@ -15,6 +15,7 @@
 ### List:
 - <a href="Circular Progress Bar">Circular Progress Bar</a>
 - <a href="Error Count">Error Count</a>
+- <a href="Form">Form Layout</a>
 - <a href="IMAGE GALLERY">Image Gallery</a>
 - <a href="Jquery Effects">JQuery Effects</a>
 - <a href="Landing Page">Landing Page</a>
